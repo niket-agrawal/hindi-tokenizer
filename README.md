@@ -1,10 +1,14 @@
-Tokenizer for Hindi
+# Tokenizer for Hindi
 
-This package tends to implement a Tokenizer and a stemmer for Hindi language.
+This package tends to implement a Tokenizer and a basic stemmer for Hindi language. It is adapted for Python3. Credits to: 
+
+[![Gem Version](https://badge.fury.io/rb/colorls.svg)](https://badge.fury.io/rb/colorls)
+[![CI](https://github.com/athityakumar/colorls/actions/workflows/ruby.yml/badge.svg)](https://github.com/taranjeet/hindi-tokenizer)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields)](http://makeapullrequest.com)
 
 To import the package,
 ```python
-from HindiTokenizer import Tokenizer
+from HindiTokenizer3 import Tokenizer
 ```
 
 This package implements various funcions, which are listed as below:
