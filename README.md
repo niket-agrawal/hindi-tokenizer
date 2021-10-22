@@ -1,15 +1,26 @@
-# Tokenizer for Hindi (Python3)
+## Tokenizing Hindi sentences (Python3)
 
-This package adapts a Tokenizer and a basic stemmer for Hindi language (Python3).
+### (1) code_tokenizer.py
+To tokenize sentences, e.g.```sample_text.txt```,
+> argument 1 - input file of sentences
+argument 2 - output file for tokens
 
+``
+$python code_tokenizer.py sample_text.txt sample_tokens.csv
+``
+
+
+### (2) HindiTokenizer3.py
+
+This package adapts a Tokenizer and a basic stemmer for Hindi language (Python3). 
 Credits to [taranjeet/hindi-tokenizer](https://github.com/taranjeet/hindi-tokenizer) and [pramod-mamidi's comment](https://github.com/taranjeet/hindi-tokenizer/files/5168855/tokenizer.zip)
 
-To import the package,
+**To import the package**,
 ```python
 from HindiTokenizer3 import Tokenizer
 ```
 
-This package implements various funcions, which are listed as below:
+**This package implements various funcions, which are listed as below:**
 
 * [read_from_file](#readfromfile)
 * [generate_sentences](#gensen)
