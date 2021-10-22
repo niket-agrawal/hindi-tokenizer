@@ -6,16 +6,11 @@ print("\t example - $python code_tokenizer.py sample_text.txt sample_tokens.csv"
 print(" -----------------------------------------------------------------\n\n")
 
 import sys
-sys.path.append("D:/IITK Temp/NonWords_Vivek/custom-packages")
-#https://github.com/taranjeet/hindi-tokenizer#printsen
-#from Hindi_tokenizer import Tokenizer
 from HindiTokenizer3 import Tokenizer
 from functools import reduce #Havok method
 from collections import defaultdict #NPE method
 import pandas as pd
 import csv
-#https://stackoverflow.com/questions/1557571/how-do-i-get-time-of-a-python-programs-execution
-import timing
 
 #Comparision for diffect methods for summation of dictionaries
 #https://stackoverflow.com/questions/10461531/merge-and-sum-of-two-dictionaries/46128481#46128481
@@ -61,11 +56,8 @@ def join_dict(big_dict, small_dict):
     return big_dict
 #######################################################################
 
-#input_path = 'hix'
-#input_path = 'D:/IITK Temp/NonWords_Vivek/iitm_indic-nlp/database_indic/hi.txt'
 input_path = sys.argv[1]
 output_path = sys.argv[2]
-#output_path = 'madras_tokens_clean.csv'
 
 all_tokens = {}
 cnt_line, cnt_unq_tokens = 0, 0
