@@ -1,6 +1,6 @@
 # Tokenizer for Hindi (Python3)
 
-This package tends to implement a Tokenizer and a basic stemmer for Hindi language (Python3). It is adapted for Python3.
+This package adapts a Tokenizer and a basic stemmer for Hindi language (Python3).
 
 Credits to [taranjeet/hindi-tokenizer](https://github.com/taranjeet/hindi-tokenizer) and [pramod-mamidi's comment](https://github.com/taranjeet/hindi-tokenizer/files/5168855/tokenizer.zip)
 
