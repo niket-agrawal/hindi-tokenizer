@@ -3,7 +3,7 @@
 ### (1) code_tokenizer.py
 To tokenize sentences, e.g.```sample_text.txt```,
 > argument 1 - input file of sentences
-argument 2 - output file for tokens
+> argument 2 - output file for tokens
 
 ``
 $python code_tokenizer.py sample_text.txt sample_tokens.csv
